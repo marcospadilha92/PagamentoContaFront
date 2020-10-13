@@ -1,0 +1,56 @@
+.main{
+    padding: 40px 0;
+}
+.main input,
+.main input::-webkit-input-placeholder {
+   font-size: 11px;
+   padding-top: 3px;
+}
+.main-center{
+    margin-top: 30px;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 10px 40px;
+    background:#009edf;
+    color: #FFF;
+    text-shadow: none;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+}
+span.input-group-addon i {
+   color: #009edf;
+   font-size: 17px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.btnMenu {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+    padding:12px 37px;
+    margin-right: 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.btnMenu:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.btnMenu:active {
+	position:relative;
+	top:1px;
+}
